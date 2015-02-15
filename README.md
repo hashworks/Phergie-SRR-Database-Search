@@ -18,9 +18,12 @@ See Phergie documentation for more information on
 ```php
 // dependency
 new \Phergie\Irc\Plugin\React\Command\Plugin,
-new \hashworks\Phergie\Plugin\SRRDatabaseSearch\Plugin,
+new \hashworks\Phergie\Plugin\SRRDatabaseSearch\Plugin(array(
+    'limit' => 5, // Optional. Limit the number of results replied to the user.
+    'hideUrlOnMultipleResults' => false // Optional. Hide URLs on multiple results.
+)),
 ```
 
 ## Syntax
 
-`srrdb <dirname|archive-crc>`
+`srrdb <imdbid|archive-crc|dirname|query>`
