@@ -2,9 +2,9 @@
     "name": "hashworks/phergie-plugin-srr-database-search",
     "description": "Phergie plugin to search srrdb.com.",
     "keywords": [ "phergie", "irc", "bot", "plugin", "srr", "database", "search", "srrdb.com" ],
-    "license": "GNU GPL v3.0",
+    "license": "GPL-3.0-or-later",
     "support": {
-        "email": "admin@hashworks.net",
+        "email": "mail@hashworks.net",
         "irc": "irc://irc.freenode.net/phergie",
         "issues": "https://github.com/hashworks/PhergieSRRDatabaseSearch/issues",
         "source": "https://github.com/hashworks/PhergieSRRDatabaseSearch"
